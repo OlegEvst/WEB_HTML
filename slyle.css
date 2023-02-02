@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+}
+.header {
+    padding-top: 20px;
+    margin: 0 auto;
+
+}
+.menu {
+    float: right;
+    margin-right: 30px;
+}
+.menu-logo {
+    width: 186px;
+    height: 38px;
+    background-image: url("https://frontend-scripts.hb.bizmrg.com/unique-hf/svg/logo_gb_light.svg");
+    background-size: 186px 38px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin-left: 30px;
+  }
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+}
+.menu-link {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121;
+    border-bottom: 3px solid #212121;
+}
+
+.menu-link-active {
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px; 
+    border-bottom: 3px solid #212121;
+}
+
+.container {
+    background-image: url(img/slider-img.jpg);
+    background-repeat:no-repeat;
+    max-width: 1366px;
+    min-width: 700px;
+    margin: 0 auto;
+    min-height:100%;
+}
+
+.pading-site {
+    padding-left: 30px
+}
+
+.content {
+    margin-top: 100px;
+}
+.content-text {
+    margin-top: 20px; 
+}
+
+.content-trending {
+    color: #43a047;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+.content-descripton {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    width: 458px;
+    margin-top: 20px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+.item-box {
+    margin-top: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.item-pic {
+   border-radius: 9px; 
+   display: flex;
+   width: 250px;
+   border-radius: 10px;
+   margin: 20px;
+}
+
+.item-pic:hover {
+    opacity: .3;
+    color: #fff;
+    transition: .4s ease; 
+  }
+
+.item-link {
+    padding: 10px;
+    background-color: #eff0eb;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container_product {
+    background-color: #eff0eb;
+    background-repeat:no-repeat;
+    max-width: 1366px;
+    min-width: 700px;
+    margin: 0 auto;
+    min-height:100%;
+}
+
+.item-box-product {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    padding-bottom: 150px ;
+}
+
